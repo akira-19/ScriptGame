@@ -1,0 +1,7 @@
+{"questions":[
+    {"question": "Q1. Switch OP codes to make the code return nine", "answer": "<OP_3> <OP_4> OP_DROP <OP_6> OP_ADD"},
+    {"question": "Q2. Switch OP codes to make the code return five", "answer": "<OP_4> <OP_7> OP_ADD <OP_6> OP_SUB"},
+    {"question": "Q3. Switch OP codes to make Bitcoin P2PKH locking script and unlocking script", "answer": "<sig> <pubkey> OP_DUP OP_HASH160 <PubKeyHash> OP_EQUALVERIFY OP_CHECKSIG"},
+    {"question": "Q4. Switch OP codes to make Bitcoin Multisig script", "answer": "OP_0 [sig] [sig] <OP_2> [pubkey] [pubkey] [pubkey] <OP_3> OP_CHECKMULTISIG"},
+    {"question": "Q5. Switch OP codes to make Bitcoin P2SH script", "answer": "OP_0 [sig] [sig] <redeemScript> OP_HASH160 Hash160(redeemScript) OP_EQUAL"}
+]}

@@ -1,0 +1,17 @@
+"questions":[
+    {"question": "Switch the order of OP code to ", "answer": "<sig> <pubkey> OP_DUP OP_HASH160 <PubKeyHash> OP_EQUALVERIFY OP_CHECKSIG"},
+    {"question": "", "answer": "<sig> [sig] [sig] <redeemScript> OP_HASH160 <Hash160(redeemScript)> OP_EQUAL"},
+    {"question": "", "answer": "OP_0 <sig> [sig] <m> <pubkey> [pubkey] [pubkey] <n> OP_CHECKMULTISIG"},
+    {"question": "", "answer": "<sig> <pubkey> OP_CHECKSIG"},
+    {"question": "", "answer": ""},
+    {"question": "", "answer": ""},
+    {"question": "", "answer": ""},
+    {"question": "", "answer": ""},
+    {"question": "", "answer": ""},
+    {"question": "", "answer": ""},
+    {"question": "", "answer": ""},
+    {"question": "", "answer": ""},
+    {"question": "", "answer": ""},
+    {"question": "", "answer": ""},
+    {"question": "", "answer": ""}
+]
